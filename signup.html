@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+<link rel="stylesheet" href="style2.css"></link>
+
+<body background="OverallBackground.jpg">
+
+ <header>
+    <title>Sign Up Form</title>
+</header>
+
+<!--NAVIGATION BAR-->
+    <div class="Header">
+        <div class="NavBar">
+            <div class="Container">
+                <div class="btn-head">
+                    <ul class="Menu">     
+                        <li><a class="btn-head" href="index.html">Home</a></li>
+                        <li><a class="btn-head" href="packages.html">Packages</a></li>
+                        <li><a class="btn-head" href="signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- SIGN UP FORM -->
+ <form action="index.html">
+
+    <div id="Center">
+
+        <div class="FirstName">
+            <p>
+                <label for="first-name">First Name:</label><br>
+                <input id="first-name" name="firstName" type="text">
+            </p>
+        </div>
+
+
+        <div class="LastName">
+            <p>
+                <label for="last-name">Last Name:</label><br>
+                <input id="last-name" name="lastName" type="text">
+            </p>
+        </div>
+
+        <div class="Gender">
+            <label for="gender">Gender:</label><br>
+            <input id="male-radio" type="radio" name="gender" value="male">
+            <label for="male-radio">Male</label><br>
+            <input id="female-radio" type="radio" name="gender" value="female">
+            <label for="female-radio">Female</label><br>
+            <input id="other-radio" type="radio" name="gender" value="other">
+            <label for="other-radio">Other</label><br><br>
+        </div>
+        
+        <div class="Package Selected">
+            <label for="Package Selected">Package Selected:</label><br>
+            <input type="text" name="Package Selected" list="Package Selected" />               
+            <datalist id="Package Selected">
+                <select name="Package Selected">
+                    <option>SHRED</option>
+                    <option>STRENGTH</option>
+                    <option>BUILD</option>
+                </select>
+            </datalist>
+        </div>
+    <br>
+        <div class="Diet Preferred">
+            <label for="Diet Preferred">Diet Preferred:</label><br>
+            <input id="writing-checkbox" type="checkbox" name="Diet Preferred" value="Low Carb, High Protein">
+            <label for="writing-checkbox">Low Carb, High Protein</label><br>
+            <input id="reading-checkbox" type="checkbox" name="Diet Preferred" value="Caloric Deficit">
+            <label for="reading-checkbox">Caloric Deficit</label><br>
+            <input id="reading-checkbox" type="checkbox" name="Diet Preferred" value="Bulk">
+            <label for="reading-checkbox">Bulk</label><br>
+            <input id="reading-checkbox" type="checkbox" name="Diet Preferred" value="Heavy Greens/Vegan">
+            <label for="reading-checkbox">Heavy Greens/Vegan</label><br>
+
+        </div>
+    <br>
+        <div class="Special Requests">
+            <label for="Special Requests">SPECIAL REQUESTS:</label><br>
+            <textarea rows="5" cols="50" name="comment" form="usrform"> Enter text here...
+            </textarea><br>
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</form>
+
+<!--FOOTER-->
+    <div class="footer">
+        <p><em>© HUDI FITNESS 2018.</em></p>
+    </div>
+</html>

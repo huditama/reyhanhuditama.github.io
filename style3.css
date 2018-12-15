@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    font-family: "Staatliches"
+    text-align: "center"
+}
+
+/* NAVIGATION BAR */
+.Header {
+    background-color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+.NavBar {
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+ul {
+    top: 0;
+    width: 100%;
+    background:black
+    position: fixed;
+  }
+
+.Menu li {
+    list-style: none;
+    opacity:0.7;
+    transition: 1s ease;
+    font-size: 20px;
+    display: inline;
+    padding: 40px;   
+    text-decoration: none;
+    z-index: 2;
+    position: fixed;
+}
+        
+.Menu li:hover{
+    opacity:1;
+    transition: 1s ease;
+}
+
+.btn-head{
+    color: white;
+    text-decoration: none;
+}
+
+.Menu {
+    margin: 0;
+    padding: 10px 0;
+    text-decoration: none;
+    position: fixed;
+}
+
+/* SIGN UP FORM */
+#id { 
+    float: right;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(161, 12, 12);
+    color: white;
+    text-align: center;

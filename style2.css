@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    font-family: "Staatliches"
+}
+
+/* NAVIGATION BAR */
+.Header {
+    background-color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+}
+
+.NavBar {
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    top: 0;
+    width: 100%;
+    background:black
+  }
+
+.Menu li {
+    list-style: none;
+    opacity:0.7;
+    transition: 1s ease;
+    font-size: 20px;
+    display: inline;
+    padding: 40px;   
+    text-decoration: none;
+    z-index: 2;
+}
+        
+.Menu li:hover{
+    opacity:1;
+    transition: 1s ease;
+}
+
+.btn-head{
+    color: white;
+    text-decoration: none;
+}
+
+.Menu {
+    margin: 0;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+/* PACKAGES */
+.Packages h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.Picture {
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.Picture:hover {
+    background: yellow;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(161, 12, 12);
+    color: white;
+    text-align: center;
